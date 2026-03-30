@@ -53,8 +53,8 @@ function Navbar() {
                 </a>
               ))}
             </div>
-            <a href={gymInfo.whatsappHref} target="_blank" rel="noreferrer" className="btn-primary">
-              Join Now
+            <a href={gymInfo.primaryCtaHref} target="_blank" rel="noreferrer" className="btn-primary">
+              {gymInfo.primaryCtaLabel}
             </a>
           </div>
 
@@ -106,16 +106,22 @@ function Navbar() {
 
           <div className="space-y-4">
             <a
-              href={gymInfo.whatsappHref}
+              href={gymInfo.primaryCtaHref}
               target="_blank"
               rel="noreferrer"
               className="btn-primary flex w-full"
               onClick={() => setOpen(false)}
             >
-              Join on WhatsApp
+              {gymInfo.primaryCtaLabel}
             </a>
-            <a href={gymInfo.phoneHref} className="btn-secondary flex w-full" onClick={() => setOpen(false)}>
-              Call {gymInfo.phoneDisplay}
+            <a
+              href={gymInfo.secondaryCtaHref}
+              target="_blank"
+              rel="noreferrer"
+              className="btn-secondary flex w-full"
+              onClick={() => setOpen(false)}
+            >
+              {gymInfo.secondaryCtaLabel}
             </a>
           </div>
         </div>

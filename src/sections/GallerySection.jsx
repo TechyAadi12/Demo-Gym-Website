@@ -8,7 +8,7 @@ function GallerySection() {
         <SectionHeading
           eyebrow="Gallery"
           title="Show The Space, Energy, And Experience"
-          description="These lightweight placeholder visuals are ready to swap with real gym photos. Using real client images here will usually improve walk-ins and WhatsApp conversions."
+          description="This section is styled for a local gym showcase. Replace these representative training visuals with actual Red Rock Gym photos from the business listing for the strongest trust boost."
           align="center"
         />
 
@@ -29,8 +29,7 @@ function GallerySection() {
                 {galleryImages[0].title}
               </h3>
               <p className="mt-3 max-w-lg text-sm leading-7 text-zinc-200 sm:text-base">
-                A high-impact first impression that helps local prospects instantly picture the quality of the
-                equipment and the training atmosphere.
+                Give local visitors a quick sense of the setup, training intensity, and overall workout environment before they decide to visit.
               </p>
             </div>
           </article>

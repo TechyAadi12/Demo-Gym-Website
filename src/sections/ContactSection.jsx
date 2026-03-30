@@ -10,7 +10,7 @@ function ContactSection() {
             <SectionHeading
               eyebrow="Location & Contact"
               title="Make It Easy To Visit, Call, Or Message"
-              description="For local businesses in India, clear directions and fast contact options matter more than long lead forms. This section is designed to reduce hesitation and drive visits."
+              description="This section now reflects the publicly accessible business details from the Red Rock Gym listing, with directions and website access prioritized."
             />
 
             <div className="mt-8 space-y-4">
@@ -20,8 +20,13 @@ function ContactSection() {
               </div>
 
               <div className="card-surface p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ember-400">Call Us</p>
-                <a href={gymInfo.phoneHref} className="mt-3 block text-lg font-semibold text-white">
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ember-400">Listing Contact</p>
+                <a
+                  href={gymInfo.phoneHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 block text-lg font-semibold text-white"
+                >
                   {gymInfo.phoneDisplay}
                 </a>
               </div>
@@ -33,11 +38,11 @@ function ContactSection() {
             </div>
 
             <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-              <a href={gymInfo.whatsappHref} target="_blank" rel="noreferrer" className="btn-primary">
-                Join via WhatsApp
+              <a href={gymInfo.primaryCtaHref} target="_blank" rel="noreferrer" className="btn-primary">
+                {gymInfo.primaryCtaLabel}
               </a>
-              <a href={gymInfo.phoneHref} className="btn-secondary">
-                Call for Enquiry
+              <a href={gymInfo.secondaryCtaHref} target="_blank" rel="noreferrer" className="btn-secondary">
+                {gymInfo.secondaryCtaLabel}
               </a>
             </div>
           </div>

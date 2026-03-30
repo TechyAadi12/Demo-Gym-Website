@@ -1,16 +1,26 @@
 export const gymInfo = {
-  name: "XYZ Fitness Zym",
-  city: "Lucknow",
-  area: "Aliganj",
-  phoneDisplay: "+91 98765 43210",
-  phoneHref: "tel:+919876543210",
-  whatsappHref: "https://wa.me/919876543210",
+  name: "The Red Rock Gym",
+  city: "Varanasi",
+  area: "Susuwahi",
+  locality: "Manorath Puri Colony, Karmanveer",
+  phoneDisplay: "+91 93697 26188",
+  phoneHref: "tel:+919369726188",
+  whatsappHref: "https://wa.me/919369726188",
   address:
-    "2nd Floor, Shakti Plaza, Near Hanuman Mandir, Aliganj Main Road, Lucknow, Uttar Pradesh 226024",
-  hours: "Mon - Sat: 5:30 AM - 10:00 PM | Sun: 7:00 AM - 1:00 PM",
+    "Manorath Puri Colony, Near Karamanvir School, Karmanveer, Susuwahi, Varanasi, Uttar Pradesh 221011",
+  hours: "Daily split timings: 5:30 AM - 10:00 AM and 5:30 PM - 10:00 PM",
   mapsEmbed:
-    "https://www.google.com/maps?q=Aliganj%20Lucknow&z=14&output=embed",
-  tagline: "Premium training. Local pricing. Serious results."
+    "https://www.google.com/maps?q=The%20Red%20Rock%20Gym%20Varanasi&z=15&output=embed",
+  mapsPlaceUrl:
+    "https://www.google.com/maps/place/The+Red+Rock+Gym/@25.2542759,82.9771639,17z",
+  websiteUrl: "https://redrockgym.blogspot.com/",
+  tagline: "Crossfit, strength training, and personal coaching in Susuwahi.",
+  primaryCtaLabel: "Join on WhatsApp",
+  primaryCtaHref: "https://wa.me/919369726188",
+  secondaryCtaLabel: "Call Now",
+  secondaryCtaHref: "tel:+919369726188",
+  rating: "4.7/5",
+  reviewCount: "258+"
 };
 
 export const navLinks = [
@@ -23,15 +33,15 @@ export const navLinks = [
 ];
 
 export const highlights = [
-  "Certified Trainers",
-  "Affordable Plans",
-  "Modern Equipment"
+  "Crossfit",
+  "Personal Trainers",
+  "Unisex Gym"
 ];
 
 export const stats = [
-  { value: "8+", label: "Years of coaching experience" },
-  { value: "500+", label: "Active and past transformations" },
-  { value: "4.8/5", label: "Local member satisfaction rating" }
+  { value: "4.7/5", label: "Average rating across public listings" },
+  { value: "258+", label: "Ratings from members and visitors" },
+  { value: "Daily", label: "Morning and evening workout slots" }
 ];
 
 export const programs = [
@@ -39,103 +49,109 @@ export const programs = [
     title: "Strength Training",
     icon: "ST",
     description:
-      "Structured workouts focused on progressive overload, safe form, and long-term strength gains."
+      "Well-equipped training floor for foundational lifting, machine work, and progressive strength routines."
   },
   {
-    title: "Cardio Training",
-    icon: "CT",
+    title: "Crossfit",
+    icon: "CF",
     description:
-      "Treadmills, bikes, and high-intensity circuits to boost stamina, endurance, and heart health."
+      "High-energy workouts for endurance, agility, conditioning, and full-body athletic improvement."
   },
   {
     title: "Personal Training",
     icon: "PT",
     description:
-      "One-to-one guidance for faster results with custom workouts, accountability, and nutrition support."
+      "Focused trainer support for beginners and serious members who want structured progress."
   },
   {
-    title: "Weight Loss Programs",
+    title: "Weight Loss Support",
     icon: "WL",
     description:
-      "Fat-loss focused plans combining exercise routines, habit coaching, and easy-to-follow diet basics."
+      "Gym guidance designed around fat-loss goals, consistency, and practical everyday routines."
   },
   {
-    title: "Muscle Gain Programs",
-    icon: "MG",
+    title: "Diet Guidance",
+    icon: "DG",
     description:
-      "Lean bulking programs built for beginners and intermediate members who want visible muscle growth."
+      "Fitness-aligned diet help and weight-loss support based on the services highlighted for the gym."
+  },
+  {
+    title: "Dance Classes",
+    icon: "DC",
+    description:
+      "An additional activity option listed alongside gym training for members looking for variety."
   }
 ];
 
 export const plans = [
   {
     name: "Monthly",
-    price: "₹1,499",
+    price: "Rs 1,200",
     period: "/month",
-    description: "Best for first-time members who want to try the gym.",
-    features: ["Full gym access", "Trainer guidance", "Cardio + strength zone"]
+    description: "A practical starter plan for students, beginners, and working members in the Susuwahi area.",
+    features: ["Full gym access", "Strength and cardio support", "Basic trainer guidance"]
   },
   {
     name: "Quarterly",
-    price: "₹3,999",
+    price: "Rs 3,000",
     period: "/3 months",
-    description: "Our most popular plan for visible fitness progress.",
-    features: ["Everything in monthly", "Diet tips", "Priority trainer support"],
+    description: "A value-focused plan for members who want visible progress without paying a high upfront amount.",
+    features: ["Everything in monthly", "Better savings than monthly", "Most suitable for regular local members"],
     popular: true
   },
   {
     name: "Yearly",
-    price: "₹11,999",
+    price: "Rs 10,000",
     period: "/year",
-    description: "Best value for long-term transformation and consistency.",
-    features: ["Everything in quarterly", "Goal tracking", "Exclusive renewal pricing"]
+    description: "Best for serious members who want the lowest monthly cost and long-term fitness discipline.",
+    features: ["Lowest effective monthly cost", "Long-term commitment value", "Ideal for transformation goals"]
   }
 ];
 
 export const galleryImages = [
   {
-    title: "Strength Floor",
+    title: "Main Training Floor",
     image:
       "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
-    tag: "Heavy Training"
+    tag: "Strength Zone"
   },
   {
-    title: "Functional Area",
+    title: "Functional Workout Space",
     image:
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80",
-    tag: "Bodyweight Zone"
+    tag: "Crossfit Energy"
   },
   {
-    title: "Cardio Bay",
+    title: "Cardio And Conditioning",
     image:
       "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80",
-    tag: "Cardio Setup"
+    tag: "Endurance Focus"
   },
   {
-    title: "Personal Training",
+    title: "Trainer-Led Sessions",
     image:
       "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80",
-    tag: "Trainer Support"
+    tag: "Guided Training"
   }
 ];
 
 export const testimonials = [
   {
-    name: "Aman Verma",
-    result: "Lost 9 kg in 4 months",
+    name: "Member Feedback",
+    result: "Members praise the atmosphere",
     quote:
-      "The trainers kept my routine simple and realistic. I saw changes in energy and body shape within the first few weeks."
+      "Public reviews consistently describe the gym as neat, tidy, and motivating for regular training."
   },
   {
-    name: "Shivani Singh",
-    result: "Improved strength and confidence",
+    name: "Equipment Feedback",
+    result: "Well-equipped setup",
     quote:
-      "I joined as a complete beginner. The staff made me comfortable and helped me stay regular without feeling overwhelmed."
+      "Review patterns highlight the quality of the equipment and the range needed for proper workouts."
   },
   {
-    name: "Rohit Yadav",
-    result: "Built muscle with personal training",
+    name: "Trainer Feedback",
+    result: "Supportive staff experience",
     quote:
-      "The workout plan was practical, the equipment was great, and the team genuinely cared about my progress every month."
+      "Visitors frequently mention polite, helpful trainers who make the overall gym experience better."
   }
 ];

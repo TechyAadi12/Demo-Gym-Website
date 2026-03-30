@@ -7,9 +7,9 @@ function PlansSection() {
     <section id="plans" className="section-space">
       <div className="section-shell">
         <SectionHeading
-          eyebrow="Membership Plans"
-          title="Affordable Pricing For Consistent Training"
-          description="Clear pricing helps reduce friction and gets more people to take action. Replace these sample rates with your client's latest membership offers."
+          eyebrow="Joining Options"
+          title="Use The Listing To Confirm Current Membership Pricing"
+          description="Public sources for this gym clearly show the business details, but not fixed package prices. These cards now guide visitors toward the latest official enquiry channels."
           align="center"
         />
 

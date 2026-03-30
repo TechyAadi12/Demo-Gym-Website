@@ -28,17 +28,17 @@ function Footer() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-white">Contact</p>
             <div className="mt-5 space-y-3 text-sm text-zinc-400">
-              <a href={gymInfo.phoneHref} className="block transition hover:text-white">
+              <a href={gymInfo.phoneHref} target="_blank" rel="noreferrer" className="block transition hover:text-white">
                 {gymInfo.phoneDisplay}
               </a>
               <p>{gymInfo.address}</p>
               <a
-                href={gymInfo.whatsappHref}
+                href={gymInfo.websiteUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="block transition hover:text-white"
               >
-                Chat on WhatsApp
+                Visit Website
               </a>
             </div>
           </div>

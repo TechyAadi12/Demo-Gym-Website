@@ -10,19 +10,19 @@ function HeroSection() {
               Premium Gym in {gymInfo.city}
             </div>
             <h1 className="mt-6 max-w-3xl font-display text-5xl uppercase leading-none tracking-wide text-white sm:text-6xl lg:text-8xl">
-              Build Your Dream Physique With Local Expert Coaching
+              Train Hard At One Of Susuwahi's Best-Rated Gyms
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-300 sm:text-lg">
-              Join {gymInfo.name} in {gymInfo.area}, {gymInfo.city} for strength training, fat loss, and
-              personal coaching built for real routines, real budgets, and real transformation.
+              Discover {gymInfo.name} in {gymInfo.area}, {gymInfo.city} for crossfit, strength workouts,
+              trainer support, and a motivating local gym environment near Karamanvir School.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <a href={gymInfo.whatsappHref} target="_blank" rel="noreferrer" className="btn-primary">
-                Join on WhatsApp
+              <a href={gymInfo.primaryCtaHref} target="_blank" rel="noreferrer" className="btn-primary">
+                {gymInfo.primaryCtaLabel}
               </a>
-              <a href={gymInfo.phoneHref} className="btn-secondary">
-                Call Now
+              <a href={gymInfo.secondaryCtaHref} target="_blank" rel="noreferrer" className="btn-secondary">
+                {gymInfo.secondaryCtaLabel}
               </a>
             </div>
 
@@ -58,13 +58,13 @@ function HeroSection() {
 
                 <div className="mt-5 rounded-3xl border border-ember-500/20 bg-gradient-to-r from-flare/10 to-ember-500/10 p-5">
                   <p className="text-xs font-semibold uppercase tracking-[0.26em] text-ember-300">
-                    Starter Offer
+                    Find The Gym Fast
                   </p>
                   <p className="mt-3 font-display text-4xl uppercase tracking-wide text-white">
-                    Free Trial Workout
+                    Near Karamanvir School
                   </p>
                   <p className="mt-2 text-sm leading-7 text-zinc-300">
-                    Message on WhatsApp to book your first session and gym visit.
+                    Use the live map listing or the official website for directions, timings, and the latest enquiry details.
                   </p>
                 </div>
               </div>

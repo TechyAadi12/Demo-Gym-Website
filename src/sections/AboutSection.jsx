@@ -1,4 +1,5 @@
 import SectionHeading from "../components/SectionHeading";
+import { gymInfo } from "../data/siteData";
 
 function AboutSection() {
   return (
@@ -26,15 +27,15 @@ function AboutSection() {
           <div>
             <SectionHeading
               eyebrow="About The Gym"
-              title="Built For Real Results And Real Schedules"
-              description="Iron Pulse Fitness is a modern local gym focused on practical transformation. We help college students, working adults, and beginners train consistently with expert guidance, smart programming, and a welcoming atmosphere."
+              title="A Popular Local Gym In The Susuwahi Area"
+              description="The Red Rock Gym is listed in Susuwahi, Varanasi and is known publicly for gym training, personal trainer support, crossfit, and related fitness services for local members."
             />
 
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
               {[
-                { value: "2018", label: "Established" },
-                { value: "3", label: "Certified trainers" },
-                { value: "6 Days", label: "Open for action" }
+                { value: "4.7/5", label: "Public rating" },
+                { value: "258+", label: "Ratings" },
+                { value: "Daily", label: "Open in split shifts" }
               ].map((item) => (
                 <div key={item.label} className="card-surface p-5">
                   <p className="font-display text-4xl uppercase tracking-wide text-white">{item.value}</p>
@@ -44,11 +45,10 @@ function AboutSection() {
             </div>
 
             <div className="mt-8 rounded-[2rem] border border-ember-500/20 bg-gradient-to-r from-flare/10 to-ember-500/10 p-6 sm:p-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-ember-300">Head Trainer</p>
-              <h3 className="mt-3 font-display text-4xl uppercase tracking-wide text-white">Rajat Singh</h3>
+              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-ember-300">Location Highlight</p>
+              <h3 className="mt-3 font-display text-4xl uppercase tracking-wide text-white">{gymInfo.locality}</h3>
               <p className="mt-3 text-sm leading-7 text-zinc-200">
-                Strength coach with 8+ years of experience helping local members improve physique, confidence,
-                mobility, and sustainable fitness habits.
+                The gym is commonly referenced near Karamanvir School, making it easier for local prospects to locate during first-time visits.
               </p>
             </div>
           </div>

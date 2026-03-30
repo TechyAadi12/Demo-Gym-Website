@@ -28,8 +28,8 @@ function PlanCard({ name, price, period, description, features, popular }) {
           </li>
         ))}
       </ul>
-      <a href={gymInfo.whatsappHref} target="_blank" rel="noreferrer" className="btn-primary mt-8 flex w-full">
-        Join via WhatsApp
+      <a href={gymInfo.primaryCtaHref} target="_blank" rel="noreferrer" className="btn-primary mt-8 flex w-full">
+        {gymInfo.primaryCtaLabel}
       </a>
     </article>
   );

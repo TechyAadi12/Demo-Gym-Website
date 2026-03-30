@@ -7,9 +7,9 @@ function TestimonialsSection() {
     <section className="section-space">
       <div className="section-shell">
         <SectionHeading
-          eyebrow="Testimonials"
-          title="Trusted By Members Who Wanted Visible Change"
-          description="Simple, believable reviews work better than over-designed testimonial sliders. These cards keep the message sharp and mobile-friendly."
+          eyebrow="Public Feedback"
+          title="What People Commonly Notice About The Gym"
+          description="These testimonial cards summarize visible review patterns from the gym's public listings and are meant to stay grounded and believable."
           align="center"
         />
 
