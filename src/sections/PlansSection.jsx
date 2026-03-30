@@ -8,8 +8,8 @@ function PlansSection() {
       <div className="section-shell">
         <SectionHeading
           eyebrow="Joining Options"
-          title="Use The Listing To Confirm Current Membership Pricing"
-          description="Public sources for this gym clearly show the business details, but not fixed package prices. These cards now guide visitors toward the latest official enquiry channels."
+          title="Choose Your Membership"
+          description="Flexible plans designed for every fitness goal. Start your transformation today with affordable, no-hassle membership options."
           align="center"
         />
 

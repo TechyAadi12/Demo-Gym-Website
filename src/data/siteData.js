@@ -16,14 +16,14 @@ export const gymInfo = {
     "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
   websiteUrl:
     "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
-  tagline: "Local fitness gym listed in Jaunpur, Uttar Pradesh.",
-  primaryCtaLabel: "Open In Google Maps",
+  tagline: "Premium fitness training in Jaunpur, Uttar Pradesh. Build strength, achieve goals.",
+  primaryCtaLabel: "Visit on Google Maps",
   primaryCtaHref:
     "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
   secondaryCtaLabel: "Get Directions",
   secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=25.7668658,82.6952369",
-  rating: "Map-Listed",
-  reviewCount: "Jaunpur"
+  rating: "Jaunpur Leading Gym",
+  reviewCount: "500+ Active Members"
 };
 
 export const navLinks = [

@@ -27,15 +27,15 @@ function AboutSection() {
           <div>
             <SectionHeading
               eyebrow="About The Gym"
-              title="A Local Gym Listing In Jaunpur"
-              description="The provided Google Maps URL points to Shre Shyam Fitness The Dominate Gym in Jaunpur, Uttar Pradesh, which is now reflected across this site."
+              title="Dominate Your Fitness Goals"
+              description="Shre Shyam Fitness brings cutting-edge equipment, expert trainers, and a supportive community to help you achieve your best physique."
             />
 
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
               {[
-                { value: "Jaunpur", label: "City" },
-                { value: "222001", label: "Postal area" },
-                { value: "Maps", label: "Primary public source" }
+                { value: "500+", label: "Active Members" },
+                { value: "2000 sqft", label: "Training Space" },
+                { value: "20+", label: "Premium Equipment" }
               ].map((item) => (
                 <div key={item.label} className="card-surface p-5">
                   <p className="font-display text-4xl uppercase tracking-wide text-white">{item.value}</p>
@@ -45,10 +45,10 @@ function AboutSection() {
             </div>
 
             <div className="mt-8 rounded-[2rem] border border-ember-500/20 bg-gradient-to-r from-flare/10 to-ember-500/10 p-6 sm:p-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-ember-300">Location Highlight</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-ember-300">Our Location</p>
               <h3 className="mt-3 font-display text-4xl uppercase tracking-wide text-white">{gymInfo.locality}</h3>
               <p className="mt-3 text-sm leading-7 text-zinc-200">
-                The available location signal from the provided listing places the gym in Jaunpur, Uttar Pradesh 222001.
+                Centrally located for easy access. Find us on Google Maps or just call ahead to plan your visit. We're open for members all week.
               </p>
             </div>
           </div>

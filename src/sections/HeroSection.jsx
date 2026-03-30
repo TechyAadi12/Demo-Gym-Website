@@ -7,22 +7,21 @@ function HeroSection() {
         <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
           <div className="animate-reveal">
             <div className="inline-flex rounded-full border border-ember-500/30 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.26em] text-ember-300">
-              Local Gym in {gymInfo.city}
+              Premium Fitness in {gymInfo.city}
             </div>
             <h1 className="mt-6 max-w-3xl font-display text-5xl uppercase leading-none tracking-wide text-white sm:text-6xl lg:text-8xl">
-              Train At A Featured Fitness Spot In Jaunpur
+              Your Journey To Peak Fitness Starts Here
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-300 sm:text-lg">
-              Find {gymInfo.name} in {gymInfo.area}, {gymInfo.city} and use the linked Google Maps listing
-              for directions, location confirmation, and the latest visit details.
+              Experience world-class equipment, expert trainers, and a community dedicated to your success. {gymInfo.name} is your ultimate fitness destination in {gymInfo.city}.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a href={gymInfo.primaryCtaHref} target="_blank" rel="noreferrer" className="btn-primary">
-                {gymInfo.primaryCtaLabel}
+                Visit Us
               </a>
               <a href={gymInfo.secondaryCtaHref} target="_blank" rel="noreferrer" className="btn-secondary">
-                {gymInfo.secondaryCtaLabel}
+                Get Directions
               </a>
             </div>
 
