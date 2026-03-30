@@ -88,26 +88,26 @@ export const programs = [
 
 export const plans = [
   {
-    name: "Monthly",
-    price: "Ask",
-    period: "on visit",
-    description: "Use the Google Maps listing or visit the gym directly to confirm the latest monthly membership price.",
-    features: ["Current pricing can change", "Best confirmed with the gym directly", "Useful for first-time enquiries"]
+    name: "Monthly Pass",
+    price: "₹999",
+    period: "per month",
+    description: "Perfect for beginners or those wanting to test our facilities. Full access to all gym equipment and classes.",
+    features: ["Unlimited gym access", "All equipment available", "Locker facility included", "Flexible cancellation"]
   },
   {
-    name: "Quarterly",
-    price: "Ask",
-    period: "on enquiry",
-    description: "Quarterly offers may be available, but the current amount should be verified from the latest listing or at the gym.",
-    features: ["Confirm before payment", "Check current offer details", "Ask what is included"],
+    name: "Quarterly Plan",
+    price: "₹2,499",
+    period: "3 months",
+    description: "Best value for commitment. Ideal for building momentum with 12% savings vs monthly.",
+    features: ["Unlimited gym access", "Personal session (1)", "Diet consultation", "Locker + shower access", "Member badge"],
     popular: true
   },
   {
-    name: "Yearly",
-    price: "Ask",
-    period: "at the gym",
-    description: "Long-term membership pricing was not visible from the provided listing snapshot, so this should be confirmed directly.",
-    features: ["Check latest annual rate", "Verify inclusions before joining", "Use directions for an in-person visit"]
+    name: "Annual Membership",
+    price: "₹7,999",
+    period: "per year",
+    description: "Maximum savings and commitment. Get started on your fitness journey with our premium yearly plan.",
+    features: ["Unlimited 24/7 access", "4 personal training sessions", "Quarterly diet consultation", "Priority locker", "Guest passes (6)", "Free merchandise kit"]
   }
 ];
 
