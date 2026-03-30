@@ -1,26 +1,29 @@
 export const gymInfo = {
-  name: "The Red Rock Gym",
-  city: "Varanasi",
-  area: "Susuwahi",
-  locality: "Manorath Puri Colony, Karmanveer",
-  phoneDisplay: "+91 93697 26188",
-  phoneHref: "tel:+919369726188",
-  whatsappHref: "https://wa.me/919369726188",
-  address:
-    "Manorath Puri Colony, Near Karamanvir School, Karmanveer, Susuwahi, Varanasi, Uttar Pradesh 221011",
-  hours: "Daily split timings: 5:30 AM - 10:00 AM and 5:30 PM - 10:00 PM",
-  mapsEmbed:
-    "https://www.google.com/maps?q=The%20Red%20Rock%20Gym%20Varanasi&z=15&output=embed",
+  name: "Shre Shyam Fitness The Dominate Gym",
+  city: "Jaunpur",
+  area: "Jaunpur",
+  locality: "Jaunpur, Uttar Pradesh 222001",
+  phoneDisplay: "Google Maps Listing",
+  phoneHref:
+    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+  whatsappHref:
+    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+  address: "Jaunpur, Uttar Pradesh 222001, India",
+  hours:
+    "Please confirm the latest opening hours directly on the Google Maps listing before visiting.",
+  mapsEmbed: "https://www.google.com/maps?q=25.7668658,82.6952369&z=15&output=embed",
   mapsPlaceUrl:
-    "https://www.google.com/maps/place/The+Red+Rock+Gym/@25.2542759,82.9771639,17z",
-  websiteUrl: "https://redrockgym.blogspot.com/",
-  tagline: "Crossfit, strength training, and personal coaching in Susuwahi.",
-  primaryCtaLabel: "Join on WhatsApp",
-  primaryCtaHref: "https://wa.me/919369726188",
-  secondaryCtaLabel: "Call Now",
-  secondaryCtaHref: "tel:+919369726188",
-  rating: "4.7/5",
-  reviewCount: "258+"
+    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+  websiteUrl:
+    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+  tagline: "Local fitness gym listed in Jaunpur, Uttar Pradesh.",
+  primaryCtaLabel: "Open In Google Maps",
+  primaryCtaHref:
+    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+  secondaryCtaLabel: "Get Directions",
+  secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=25.7668658,82.6952369",
+  rating: "Map-Listed",
+  reviewCount: "Jaunpur"
 };
 
 export const navLinks = [
@@ -33,15 +36,15 @@ export const navLinks = [
 ];
 
 export const highlights = [
-  "Crossfit",
-  "Personal Trainers",
-  "Unisex Gym"
+  "Local Gym",
+  "Strength Training",
+  "Fitness Coaching"
 ];
 
 export const stats = [
-  { value: "4.7/5", label: "Average rating across public listings" },
-  { value: "258+", label: "Ratings from members and visitors" },
-  { value: "Daily", label: "Morning and evening workout slots" }
+  { value: "Jaunpur", label: "Google Maps city match" },
+  { value: "222001", label: "Postal area from reverse geocode" },
+  { value: "Map-Listed", label: "Business located from the provided Google Maps URL" }
 ];
 
 export const programs = [
@@ -86,25 +89,25 @@ export const programs = [
 export const plans = [
   {
     name: "Monthly",
-    price: "Rs 1,200",
-    period: "/month",
-    description: "A practical starter plan for students, beginners, and working members in the Susuwahi area.",
-    features: ["Full gym access", "Strength and cardio support", "Basic trainer guidance"]
+    price: "Ask",
+    period: "on visit",
+    description: "Use the Google Maps listing or visit the gym directly to confirm the latest monthly membership price.",
+    features: ["Current pricing can change", "Best confirmed with the gym directly", "Useful for first-time enquiries"]
   },
   {
     name: "Quarterly",
-    price: "Rs 3,000",
-    period: "/3 months",
-    description: "A value-focused plan for members who want visible progress without paying a high upfront amount.",
-    features: ["Everything in monthly", "Better savings than monthly", "Most suitable for regular local members"],
+    price: "Ask",
+    period: "on enquiry",
+    description: "Quarterly offers may be available, but the current amount should be verified from the latest listing or at the gym.",
+    features: ["Confirm before payment", "Check current offer details", "Ask what is included"],
     popular: true
   },
   {
     name: "Yearly",
-    price: "Rs 10,000",
-    period: "/year",
-    description: "Best for serious members who want the lowest monthly cost and long-term fitness discipline.",
-    features: ["Lowest effective monthly cost", "Long-term commitment value", "Ideal for transformation goals"]
+    price: "Ask",
+    period: "at the gym",
+    description: "Long-term membership pricing was not visible from the provided listing snapshot, so this should be confirmed directly.",
+    features: ["Check latest annual rate", "Verify inclusions before joining", "Use directions for an in-person visit"]
   }
 ];
 

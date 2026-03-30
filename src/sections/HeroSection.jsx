@@ -7,14 +7,14 @@ function HeroSection() {
         <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
           <div className="animate-reveal">
             <div className="inline-flex rounded-full border border-ember-500/30 bg-white/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.26em] text-ember-300">
-              Premium Gym in {gymInfo.city}
+              Local Gym in {gymInfo.city}
             </div>
             <h1 className="mt-6 max-w-3xl font-display text-5xl uppercase leading-none tracking-wide text-white sm:text-6xl lg:text-8xl">
-              Train Hard At One Of Susuwahi's Best-Rated Gyms
+              Train At A Featured Fitness Spot In Jaunpur
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-300 sm:text-lg">
-              Discover {gymInfo.name} in {gymInfo.area}, {gymInfo.city} for crossfit, strength workouts,
-              trainer support, and a motivating local gym environment near Karamanvir School.
+              Find {gymInfo.name} in {gymInfo.area}, {gymInfo.city} and use the linked Google Maps listing
+              for directions, location confirmation, and the latest visit details.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -61,10 +61,10 @@ function HeroSection() {
                     Find The Gym Fast
                   </p>
                   <p className="mt-3 font-display text-4xl uppercase tracking-wide text-white">
-                    Near Karamanvir School
+                    Jaunpur, Uttar Pradesh
                   </p>
                   <p className="mt-2 text-sm leading-7 text-zinc-300">
-                    Use the live map listing or the official website for directions, timings, and the latest enquiry details.
+                    Open the live map listing for navigation, business lookup, and the most current contact or timing updates.
                   </p>
                 </div>
               </div>

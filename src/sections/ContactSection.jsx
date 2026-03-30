@@ -10,7 +10,7 @@ function ContactSection() {
             <SectionHeading
               eyebrow="Location & Contact"
               title="Make It Easy To Visit, Call, Or Message"
-              description="This section now reflects the publicly accessible business details from the Red Rock Gym listing, with directions and website access prioritized."
+              description="This section now reflects the publicly available details I could verify from the provided Google Maps listing for Shre Shyam Fitness The Dominate Gym."
             />
 
             <div className="mt-8 space-y-4">
@@ -20,7 +20,7 @@ function ContactSection() {
               </div>
 
               <div className="card-surface p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ember-400">Listing Contact</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-ember-400">Listing Link</p>
                 <a
                   href={gymInfo.phoneHref}
                   target="_blank"

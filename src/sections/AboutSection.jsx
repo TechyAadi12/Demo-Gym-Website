@@ -27,15 +27,15 @@ function AboutSection() {
           <div>
             <SectionHeading
               eyebrow="About The Gym"
-              title="A Popular Local Gym In The Susuwahi Area"
-              description="The Red Rock Gym is listed in Susuwahi, Varanasi and is known publicly for gym training, personal trainer support, crossfit, and related fitness services for local members."
+              title="A Local Gym Listing In Jaunpur"
+              description="The provided Google Maps URL points to Shre Shyam Fitness The Dominate Gym in Jaunpur, Uttar Pradesh, which is now reflected across this site."
             />
 
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
               {[
-                { value: "4.7/5", label: "Public rating" },
-                { value: "258+", label: "Ratings" },
-                { value: "Daily", label: "Open in split shifts" }
+                { value: "Jaunpur", label: "City" },
+                { value: "222001", label: "Postal area" },
+                { value: "Maps", label: "Primary public source" }
               ].map((item) => (
                 <div key={item.label} className="card-surface p-5">
                   <p className="font-display text-4xl uppercase tracking-wide text-white">{item.value}</p>
@@ -48,7 +48,7 @@ function AboutSection() {
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-ember-300">Location Highlight</p>
               <h3 className="mt-3 font-display text-4xl uppercase tracking-wide text-white">{gymInfo.locality}</h3>
               <p className="mt-3 text-sm leading-7 text-zinc-200">
-                The gym is commonly referenced near Karamanvir School, making it easier for local prospects to locate during first-time visits.
+                The available location signal from the provided listing places the gym in Jaunpur, Uttar Pradesh 222001.
               </p>
             </div>
           </div>

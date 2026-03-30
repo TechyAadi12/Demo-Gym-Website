@@ -8,7 +8,7 @@ function GallerySection() {
         <SectionHeading
           eyebrow="Gallery"
           title="Show The Space, Energy, And Experience"
-          description="This section is styled for a local gym showcase. Replace these representative training visuals with actual Red Rock Gym photos from the business listing for the strongest trust boost."
+          description="This section is styled for a local gym showcase. Replace these representative visuals with actual photos from Shre Shyam Fitness The Dominate Gym for stronger local trust."
           align="center"
         />
 

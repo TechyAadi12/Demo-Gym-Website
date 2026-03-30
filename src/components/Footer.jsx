@@ -38,7 +38,7 @@ function Footer() {
                 rel="noreferrer"
                 className="block transition hover:text-white"
               >
-                Visit Website
+                Open Google Maps
               </a>
             </div>
           </div>
