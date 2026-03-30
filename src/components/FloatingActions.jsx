@@ -21,8 +21,8 @@ function FloatingActions() {
         </span>
       </a>
       <a
-        href={gymInfo.secondaryCtaHref}
-        aria-label={`Get directions to ${gymInfo.name}`}
+        href={gymInfo.phoneHref}
+        aria-label={`Call ${gymInfo.name}`}
         className="group flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-gradient-to-br from-flare to-ember-500 text-white shadow-[0_16px_35px_rgba(239,68,68,0.35)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_45px_rgba(249,115,22,0.45)]"
       >
         <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white/12">

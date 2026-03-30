@@ -5,9 +5,9 @@ export const gymInfo = {
   locality: "Jaunpur, Uttar Pradesh 222001",
   phoneDisplay: "Google Maps Listing",
   phoneHref:
-    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+    "tel:09653009682",
   whatsappHref:
-    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+    "https://wa.me/919653009682",
   address: "Jaunpur, Uttar Pradesh 222001, India",
   hours:
     "Please confirm the latest opening hours directly on the Google Maps listing before visiting.",
