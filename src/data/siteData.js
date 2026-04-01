@@ -121,19 +121,19 @@ export const galleryImages = [
   {
     title: "Functional Workout Space",
     image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1554080221-cbf25b2aafb9?auto=format&fit=crop&w=1200&q=80",
     tag: "Crossfit Energy"
   },
   {
     title: "Cardio And Conditioning",
     image:
-      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1200&q=80",
     tag: "Endurance Focus"
   },
   {
     title: "Trainer-Led Sessions",
     image:
-      "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590740969955-71cc95901143?auto=format&fit=crop&w=1200&q=80",
     tag: "Guided Training"
   }
 ];
