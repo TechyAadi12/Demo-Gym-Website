@@ -115,37 +115,37 @@ export const galleryImages = [
   {
     title: "Main Training Floor",
     image:
-      "https://images.unsplash.com/photo-1521575107034-e3a2ebaed82d?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2016/11/19/14/19/dumbbell-1837460_1280.jpg",
     tag: "Strength Zone"
   },
   {
     title: "Functional Workout Space",
     image:
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2017/04/04/18/57/barbell-2201639_1280.jpg",
     tag: "Crossfit Energy"
   },
   {
     title: "Cardio And Conditioning",
     image:
-      "https://images.unsplash.com/photo-1552196881-5658ab63d79c?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2017/07/20/18/37/treadmill-2523588_1280.jpg",
     tag: "Endurance Focus"
   },
   {
     title: "Personal Training Sessions",
     image:
-      "https://images.unsplash.com/photo-1633614503674-cdef0827daf7?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2016/11/03/19/46/barbell-1795895_1280.jpg",
     tag: "Expert Guidance"
   },
   {
     title: "State-of-the-Art Equipment",
     image:
-      "https://images.unsplash.com/photo-1596357905330-e935cff63fe2?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2017/08/07/22/43/workout-2609159_1280.jpg",
     tag: "Premium Facilities"
   },
   {
     title: "Group Fitness Classes",
     image:
-      "https://images.unsplash.com/photo-1588286840104-8957b019727f?auto=format&fit=crop&w=1200&q=80",
+      "https://cdn.pixabay.com/photo/2017/02/12/11/49/yoga-2059684_1280.jpg",
     tag: "Community Energy"
   }
 ];
