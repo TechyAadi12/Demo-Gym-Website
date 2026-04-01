@@ -1,8 +1,20 @@
 import SectionHeading from "../components/SectionHeading";
 import ProgramCard from "../components/ProgramCard";
 import { programs } from "../data/siteData";
+import { motion } from "framer-motion";
 
 function ProgramsSection() {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
   return (
     <section id="programs" className="section-space bg-white/[0.02]">
       <div className="section-shell">
@@ -13,11 +25,17 @@ function ProgramsSection() {
           align="center"
         />
 
-        <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <motion.div 
+          className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           {programs.map((program) => (
             <ProgramCard key={program.title} {...program} />
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

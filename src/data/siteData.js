@@ -1,29 +1,29 @@
 export const gymInfo = {
-  name: "Shre Shyam Fitness The Dominate Gym",
-  city: "Jaunpur",
-  area: "Jaunpur",
-  locality: "Jaunpur, Uttar Pradesh 222001",
-  phoneDisplay: "Google Maps Listing",
+  name: "Fit Life GYM",
+  city: "Lucknow",
+  area: "Charbag",
+  locality: "Charbag, Lucknow, Uttar Pradesh",
+  phoneDisplay: "09721286629",
   phoneHref:
-    "tel:09653009682",
+    "tel:+919721286629",
   whatsappHref:
-    "https://wa.me/919653009682",
-  address: "Jaunpur, Uttar Pradesh 222001, India",
+    "https://wa.me/919721286629",
+  address: "Charbag, Lucknow, Uttar Pradesh, India",
   hours:
     "Please confirm the latest opening hours directly on the Google Maps listing before visiting.",
-  mapsEmbed: "https://www.google.com/maps?q=25.7668658,82.6952369&z=15&output=embed",
+  mapsEmbed: "https://www.google.com/maps?q=26.8362912,80.9201818&z=15&output=embed",
   mapsPlaceUrl:
-    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
   websiteUrl:
-    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
-  tagline: "Premium fitness training in Jaunpur, Uttar Pradesh. Build strength, achieve goals.",
+    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
+  tagline: "Premium fitness training in Lucknow, Uttar Pradesh. Build strength, achieve goals.",
   primaryCtaLabel: "Visit on Google Maps",
   primaryCtaHref:
-    "https://www.google.com/maps/place/Shre+shyam+fitness+the+dominate+gym/@25.7668658,82.659188,14z/data=!4m10!1m2!2m1!1sgyms+in+jaunpur!3m6!1s0x3990393299282e53:0x30fd2282da670972!8m2!3d25.7668658!4d82.6952369!15sCg9neW1zIGluIGphdW5wdXJaESIPZ3ltcyBpbiBqYXVucHVykgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5DYUdOUU5WVlJFQUXgAQD6AQQIABAU!16s%2Fg%2F11k492nz6h",
+    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
   secondaryCtaLabel: "Get Directions",
-  secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=25.7668658,82.6952369",
-  rating: "Jaunpur Leading Gym",
-  reviewCount: "500+ Active Members"
+  secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=26.8362912,80.9201818",
+  rating: "Lucknow Premier Gym",
+  reviewCount: "Google Maps Listed"
 };
 
 export const navLinks = [
@@ -42,8 +42,8 @@ export const highlights = [
 ];
 
 export const stats = [
-  { value: "Jaunpur", label: "Google Maps city match" },
-  { value: "222001", label: "Postal area from reverse geocode" },
+  { value: "Lucknow", label: "Google Maps city match" },
+  { value: "Charbag", label: "Prime locality from Google Maps" },
   { value: "Map-Listed", label: "Business located from the provided Google Maps URL" }
 ];
 
