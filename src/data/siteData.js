@@ -1,29 +1,29 @@
 export const gymInfo = {
-  name: "Fit Life GYM",
-  city: "Lucknow",
-  area: "Charbag",
-  locality: "Charbag, Lucknow, Uttar Pradesh",
-  phoneDisplay: "09721286629",
+  name: "THE FITNESS HUB GYM",
+  city: "Ayodhya",
+  area: "Hanumat Nagar",
+  locality: "Hanumat Nagar, Ayodhya, Uttar Pradesh",
+  phoneDisplay: "09670072111",
   phoneHref:
-    "tel:+919721286629",
+    "tel:+919670072111",
   whatsappHref:
-    "https://wa.me/919721286629",
-  address: "Charbag, Lucknow, Uttar Pradesh, India",
+    "https://wa.me/919670072111",
+  address: "Mega Shop, Naka Rd, Hanumat Nagar, Ayodhya, Faizabad, Uttar Pradesh 224001",
   hours:
-    "Please confirm the latest opening hours directly on the Google Maps listing before visiting.",
-  mapsEmbed: "https://www.google.com/maps?q=26.8362912,80.9201818&z=15&output=embed",
+    "Opens at 4:00 PM - Please confirm latest hours directly on Google Maps listing before visiting.",
+  mapsEmbed: "https://www.google.com/maps?q=26.7618941,82.1416991&z=15&output=embed",
   mapsPlaceUrl:
-    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
+    "https://www.google.com/maps/place/THE+FITNESS+HUB+GYM/@26.7609241,82.0540453,12z/data=!4m10!1m2!2m1!1sgyms+in+Ayodhya!3m6!1s0x399a097811c33257:0x316f966819793152!8m2!3d26.7618941!4d82.1416991!15sCg9neW1zIGluIEF5b2RoeWFaESIPZ3ltcyBpbiBheW9kaHlhkgEDZ3ltmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwb2NHRnBNVEZUVjBwR1UyeFplV1F5V2xCU2JUVjZZMnhXYldWSFl4QULgAQD6AQQIABA8!16s%2Fg%2F11h_wxhhsb",
   websiteUrl:
-    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
-  tagline: "Premium fitness training in Lucknow, Uttar Pradesh. Build strength, achieve goals.",
+    "https://www.google.com/maps/place/THE+FITNESS+HUB+GYM/@26.7609241,82.0540453,12z/data=!4m10!1m2!2m1!1sgyms+in+Ayodhya!3m6!1s0x399a097811c33257:0x316f966819793152!8m2!3d26.7618941!4d82.1416991!15sCg9neW1zIGluIEF5b2RoeWFaESIPZ3ltcyBpbiBheW9kaHlhkgEDZ3ltmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwb2NHRnBNVEZUVjBwR1UyeFplV1F5V2xCU2JUVjZZMnhXYldWSFl4QULgAQD6AQQIABA8!16s%2Fg%2F11h_wxhhsb",
+  tagline: "Premium fitness training in Ayodhya, Uttar Pradesh. Build strength, achieve goals with expert trainers.",
   primaryCtaLabel: "Visit on Google Maps",
   primaryCtaHref:
-    "https://www.google.com/maps/place/Fit+Life+GYM/@26.8238741,80.8703625,13z/data=!4m10!1m2!2m1!1sZyms+in+Lucknow+Charbag+!3m6!1s0x399bfd6e1e1aa7b9:0x12a4ccb34d607900!8m2!3d26.8362912!4d80.9201818!15sChhHeW1zIGluIEx1Y2tub3cgQ2hhcmJhZ2taGiIYZ3ltcyBpbiBsdWNrbm93IGNoYXJiYWdokgEOZml0bmVzc19jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUktORmxVUzE5QlJSQULgAQD6AQQIABAU!16s%2Fg%2F11h70gjx17",
+    "https://www.google.com/maps/place/THE+FITNESS+HUB+GYM/@26.7609241,82.0540453,12z/data=!4m10!1m2!2m1!1sgyms+in+Ayodhya!3m6!1s0x399a097811c33257:0x316f966819793152!8m2!3d26.7618941!4d82.1416991!15sCg9neW1zIGluIEF5b2RoeWFaESIPZ3ltcyBpbiBheW9kaHlhkgEDZ3ltmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwb2NHRnBNVEZUVjBwR1UyeFplV1F5V2xCU2JUVjZZMnhXYldWSFl4QULgAQD6AQQIABA8!16s%2Fg%2F11h_wxhhsb",
   secondaryCtaLabel: "Get Directions",
-  secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=26.8362912,80.9201818",
-  rating: "Lucknow Premier Gym",
-  reviewCount: "Google Maps Listed"
+  secondaryCtaHref: "https://www.google.com/maps/dir/?api=1&destination=26.7618941,82.1416991",
+  rating: "4.8★ (460 reviews)",
+  reviewCount: "Highly Rated on Google Maps"
 };
 
 export const navLinks = [
@@ -36,15 +36,15 @@ export const navLinks = [
 ];
 
 export const highlights = [
-  "Local Gym",
-  "Strength Training",
-  "Fitness Coaching"
+  "Ayodhya's Top-Rated Gym",
+  "Expert Personal Training",
+  "Premium Fitness Equipment"
 ];
 
 export const stats = [
-  { value: "Lucknow", label: "Google Maps city match" },
-  { value: "Charbag", label: "Prime locality from Google Maps" },
-  { value: "Map-Listed", label: "Business located from the provided Google Maps URL" }
+  { value: "4.8★", label: "Google Maps Rating" },
+  { value: "460+", label: "Community Reviews" },
+  { value: "Ayodhya", label: "Premium Fitness Hub" }
 ];
 
 export const programs = [
@@ -152,21 +152,21 @@ export const galleryImages = [
 
 export const testimonials = [
   {
-    name: "Member Feedback",
-    result: "Members praise the atmosphere",
+    name: "Sishti Pathak",
+    result: "Great Facilities",
     quote:
-      "Public reviews consistently describe the gym as neat, tidy, and motivating for regular training."
+      "The place is nice with excellent infrastructure. The trainers are supportive and knowledgeable."
   },
   {
-    name: "Equipment Feedback",
-    result: "Well-equipped setup",
+    name: "Nisha Pandey",
+    result: "Supportive Training",
     quote:
-      "Review patterns highlight the quality of the equipment and the range needed for proper workouts."
+      "All trainers are very supportive, especially Amit sir who guides and supports throughout workouts."
   },
   {
-    name: "Trainer Feedback",
-    result: "Supportive staff experience",
+    name: "Chinmay Srivastava",
+    result: "Excellent for Fitness Goals",
     quote:
-      "Visitors frequently mention polite, helpful trainers who make the overall gym experience better."
+      "Very good facilities for weight loss and strength training. Trainers are knowledgeable and supportive."
   }
 ];
