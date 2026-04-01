@@ -115,37 +115,37 @@ export const galleryImages = [
   {
     title: "Main Training Floor",
     image:
-      "https://cdn.pixabay.com/photo/2016/11/19/14/19/dumbbell-1837460_1280.jpg",
+      "/images/gallery/main-training-floor.jpg",
     tag: "Strength Zone"
   },
   {
     title: "Functional Workout Space",
     image:
-      "https://cdn.pixabay.com/photo/2017/04/04/18/57/barbell-2201639_1280.jpg",
+      "/images/gallery/functional-workout-space.jpg",
     tag: "Crossfit Energy"
   },
   {
     title: "Cardio And Conditioning",
     image:
-      "https://cdn.pixabay.com/photo/2017/07/20/18/37/treadmill-2523588_1280.jpg",
+      "/images/gallery/cardio-and-conditioning.jpg",
     tag: "Endurance Focus"
   },
   {
     title: "Personal Training Sessions",
     image:
-      "https://cdn.pixabay.com/photo/2016/11/03/19/46/barbell-1795895_1280.jpg",
+      "/images/gallery/personal-training-sessions.jpg",
     tag: "Expert Guidance"
   },
   {
     title: "State-of-the-Art Equipment",
     image:
-      "https://cdn.pixabay.com/photo/2017/08/07/22/43/workout-2609159_1280.jpg",
+      "/images/gallery/state-of-the-art-equipment.jpg",
     tag: "Premium Facilities"
   },
   {
     title: "Group Fitness Classes",
     image:
-      "https://cdn.pixabay.com/photo/2017/02/12/11/49/yoga-2059684_1280.jpg",
+      "/images/gallery/group-fitness-classes.jpg",
     tag: "Community Energy"
   }
 ];
