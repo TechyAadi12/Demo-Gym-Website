@@ -115,26 +115,38 @@ export const galleryImages = [
   {
     title: "Main Training Floor",
     image:
-      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1521575107034-e3a2ebaed82d?auto=format&fit=crop&w=1200&q=80",
     tag: "Strength Zone"
   },
   {
     title: "Functional Workout Space",
     image:
-      "https://images.unsplash.com/photo-1554080221-cbf25b2aafb9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
     tag: "Crossfit Energy"
   },
   {
     title: "Cardio And Conditioning",
     image:
-      "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552196881-5658ab63d79c?auto=format&fit=crop&w=1200&q=80",
     tag: "Endurance Focus"
   },
   {
-    title: "Trainer-Led Sessions",
+    title: "Personal Training Sessions",
     image:
-      "https://images.unsplash.com/photo-1590740969955-71cc95901143?auto=format&fit=crop&w=1200&q=80",
-    tag: "Guided Training"
+      "https://images.unsplash.com/photo-1633614503674-cdef0827daf7?auto=format&fit=crop&w=1200&q=80",
+    tag: "Expert Guidance"
+  },
+  {
+    title: "State-of-the-Art Equipment",
+    image:
+      "https://images.unsplash.com/photo-1596357905330-e935cff63fe2?auto=format&fit=crop&w=1200&q=80",
+    tag: "Premium Facilities"
+  },
+  {
+    title: "Group Fitness Classes",
+    image:
+      "https://images.unsplash.com/photo-1588286840104-8957b019727f?auto=format&fit=crop&w=1200&q=80",
+    tag: "Community Energy"
   }
 ];
 
