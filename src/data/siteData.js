@@ -115,37 +115,37 @@ export const galleryImages = [
   {
     title: "Main Training Floor",
     image:
-      "/images/gallery/main-training-floor.jpg",
+      "/main-training-floor.png",
     tag: "Strength Zone"
   },
   {
     title: "Functional Workout Space",
     image:
-      "/images/gallery/functional-workout-space.jpg",
+      "/functional-workout-space.png",
     tag: "Crossfit Energy"
   },
   {
     title: "Cardio And Conditioning",
     image:
-      "/images/gallery/cardio-and-conditioning.jpg",
+      "/cardio-and-conditioning.png",
     tag: "Endurance Focus"
   },
   {
     title: "Personal Training Sessions",
     image:
-      "/images/gallery/personal-training-sessions.jpg",
+      "/personal-training-sessions.png",
     tag: "Expert Guidance"
   },
   {
     title: "State-of-the-Art Equipment",
     image:
-      "/images/gallery/state-of-the-art-equipment.jpg",
+      "/state-of-the-art-equipment.png",
     tag: "Premium Facilities"
   },
   {
     title: "Group Fitness Classes",
     image:
-      "/images/gallery/group-fitness-classes.jpg",
+      "/group-fitness-classes.png",
     tag: "Community Energy"
   }
 ];
